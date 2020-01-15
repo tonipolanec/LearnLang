@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNumbers"
+    android:background="#393e46">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textN0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+                    />
+
+                <Button
+                    android:id="@+id/gumbN0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="zero"
+
+                    android:onClick="onClickGN0"
+
+                    android:layout_toRightOf="@+id/textN0"
+                    android:layout_alignBottom="@+id/textN0"
+                    />
+
+                <TextView
+                    android:id="@+id/textN1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN0"
+                    />
+                <Button
+                    android:id="@+id/gumbN1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="one"
+
+                    android:onClick="onClickGN1"
+
+                    android:layout_toRightOf="@+id/textN1"
+                    android:layout_alignBottom="@+id/textN1"
+                    />
+
+                <TextView
+                    android:id="@+id/textN2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN1"
+                    />
+                <Button
+                    android:id="@+id/gumbN2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="two"
+
+                    android:onClick="onClickGN2"
+
+                    android:layout_toRightOf="@+id/textN2"
+                    android:layout_alignBottom="@+id/textN2"
+                    />
+
+                <TextView
+                    android:id="@+id/textN3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN2"
+                    />
+                <Button
+                    android:id="@+id/gumbN3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="three"
+
+                    android:onClick="onClickGN3"
+
+                    android:layout_toRightOf="@+id/textN3"
+                    android:layout_alignBottom="@+id/textN3"
+                    />
+
+                <TextView
+                    android:id="@+id/textN4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN3"
+                    />
+                <Button
+                    android:id="@+id/gumbN4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="four"
+
+                    android:onClick="onClickGN4"
+
+                    android:layout_toRightOf="@+id/textN4"
+                    android:layout_alignBottom="@+id/textN4"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textN5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN4"
+                    />
+                <Button
+                    android:id="@+id/gumbN5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="five"
+
+                    android:onClick="onClickGN5"
+
+                    android:layout_toRightOf="@+id/textN5"
+                    android:layout_alignBottom="@+id/textN5"
+                    />
+
+                <TextView
+                    android:id="@+id/textN6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN5"
+                    />
+                <Button
+                    android:id="@+id/gumbN6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="six"
+
+                    android:onClick="onClickGN6"
+
+                    android:layout_toRightOf="@+id/textN6"
+                    android:layout_alignBottom="@+id/textN6"
+                    />
+
+                <TextView
+                    android:id="@+id/textN7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN6"
+                    />
+                <Button
+                    android:id="@+id/gumbN7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="seven"
+
+                    android:onClick="onClickGN7"
+
+                    android:layout_toRightOf="@+id/textN7"
+                    android:layout_alignBottom="@+id/textN7"
+                    />
+
+                <TextView
+                    android:id="@+id/textN8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN7"
+                    />
+                <Button
+                    android:id="@+id/gumbN8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="eight"
+
+                    android:onClick="onClickGN8"
+
+                    android:layout_toRightOf="@+id/textN8"
+                    android:layout_alignBottom="@+id/textN8"
+                    />
+                <TextView
+                    android:id="@+id/textN9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+                    android:textColor="#00adb5"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+
+                    android:layout_below="@+id/textN8"
+                    />
+                <Button
+                    android:id="@+id/gumbN9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="nine"
+
+                    android:onClick="onClickGN9"
+
+                    android:layout_toRightOf="@+id/textN9"
+                    android:layout_alignBottom="@+id/textN9"
+                    />
+
+                <TextView
+                    android:id="@+id/textN10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="10"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+                    android:textSize="60dp"
+
+                    android:layout_below="@+id/textN9"
+                    android:layout_centerVertical="true"
+                    />
+
+                <Button
+                    android:id="@+id/gumbN10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#222831"
+                    android:stateListAnimator="@null"
+                    android:padding="5dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:textColor="#222831"
+                    android:textSize="45dp"
+                    android:text="ten"
+
+                    android:onClick="onClickGN10"
+
+                    android:layout_toRightOf="@+id/textN10"
+                    android:layout_alignBottom="@+id/textN10"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

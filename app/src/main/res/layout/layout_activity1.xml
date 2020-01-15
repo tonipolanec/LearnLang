@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="#393e46">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/learnlang_logo_text" />
+
+    <Button
+        android:id="@+id/gumbNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:paddingTop="8dp"
+        android:text="Numbers"
+        android:textAlignment="center"
+        android:textColor="#222831"
+        android:textSize="25dp"
+
+        android:onClick="onClickNumbers"
+        />
+
+    <Button
+        android:id="@+id/gumbFamilyMembers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Family members"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#222831"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="50dp"
+
+        android:onClick="onClickFamMembers"
+        />
+
+    <Button
+        android:id="@+id/gumbFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Food"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#222831"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="50dp"
+
+        android:onClick="onClickFood"
+        />
+
+    <Button
+        android:id="@+id/gumbColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Colors"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#222831"
+        android:background="@drawable/button_selector"
+        android:padding="12dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="50dp"
+
+        android:onClick="onClickColors"
+        />
+
+
+</LinearLayout>

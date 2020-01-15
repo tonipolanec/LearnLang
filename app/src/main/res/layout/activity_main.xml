@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:background="#393e46">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:srcCompat="@drawable/learnlang_logo_800x800" />
+
+
+    <Button
+        android:id="@+id/gumbMain"
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:layout_gravity="center"
+        android:background="#393e46"
+        android:onClick="onClickMain"
+        android:shadowColor="#222831"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:stateListAnimator="@null"
+        android:text="PRESS \n TO START \n LEARNING"
+        android:textColor="#00adb5"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/gumbMain2"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#393e46"
+        android:onClick="onClickMain"
+        android:stateListAnimator="@null"
+        android:text="" />
+
+</LinearLayout>
