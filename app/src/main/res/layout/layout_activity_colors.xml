@@ -11,6 +11,302 @@
     android:background="#393e46">
 
 
+    <Button
+        android:id="@+id/gumbFam"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="#393e46"
+        android:shadowColor="#222831"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:stateListAnimator="@null"
+        android:text="COLORS"
+        android:textColor="#00adb5"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:padding="0dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp">
+
+
+                <Button
+                    android:id="@+id/gumbC0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#FF0000"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC0"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="red"
+                    android:textColor="#FF0000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#FF0000"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:id="@+id/gumbC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC0"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#FF5722"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC1"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="orange"
+                    android:textColor="#FF5722"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#FF5722"
+                    android:textSize="35dp" />
+
+
+                <Button
+                    android:id="@+id/gumbC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/textFM2"
+                    android:background="#FFEB3B"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC2"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="yellow"
+                    android:textColor="#FFEB3B"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+
+                <Button
+                    android:id="@+id/gumbC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#4CAF50"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC3"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="green"
+                    android:textColor="#4CAF50"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+
+                <Button
+                    android:id="@+id/gumbC4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#0620C4"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC4"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="blue"
+                    android:textColor="#0620C4"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+
+                <Button
+                    android:id="@+id/gumbC5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC4"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#673AB7"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC5"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="purple"
+                    android:textColor="#673AB7"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:id="@+id/gumbC6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC5"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#8B4513"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC6"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="brown"
+                    android:textColor="#8B4513"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:id="@+id/gumbC7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC6"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#FF03E6"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC7"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="pink"
+                    android:textColor="#FF03E6"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:id="@+id/gumbC8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC7"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#000000"
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC8"
+
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="black"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:id="@+id/gumbC9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/gumbC8"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="#FFFFFF"
+
+                    android:minWidth="200dp"
+
+                    android:onClick="onClickC9"
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+
+                    android:paddingRight="0dp"
+                    android:stateListAnimator="@null"
+                    android:text="white"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#000000"
+                    android:textSize="35dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
 
 </LinearLayout>

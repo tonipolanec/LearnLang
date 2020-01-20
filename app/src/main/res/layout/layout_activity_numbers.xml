@@ -7,9 +7,28 @@
     tools:context=".ActivityNumbers"
     android:background="#393e46">
 
+
+    <Button
+        android:id="@+id/gumbNum"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="#393e46"
+        android:shadowColor="#222831"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:stateListAnimator="@null"
+        android:text="NUMBERS"
+        android:textColor="#00adb5"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/gumbNum">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -36,6 +55,8 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:layout_marginRight="30dp"
+
+
                     />
 
                 <Button

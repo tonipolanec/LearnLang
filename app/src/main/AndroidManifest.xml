@@ -3,6 +3,7 @@
     package="com.example.myapplication">
 
     <application
+        android:name="com.example.myapplication.GlobalClass"
         android:allowBackup="true"
         android:icon="@drawable/icon_hi_res"
         android:label="Learn Lang"

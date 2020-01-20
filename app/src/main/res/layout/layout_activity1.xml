@@ -52,6 +52,7 @@
         android:onClick="onClickFamMembers"
         />
 
+    <!--
     <Button
         android:id="@+id/gumbFood"
         android:layout_width="wrap_content"
@@ -68,6 +69,7 @@
 
         android:onClick="onClickFood"
         />
+        -->
 
     <Button
         android:id="@+id/gumbColors"

@@ -11,6 +11,284 @@
     android:background="#393e46">
 
 
+    <Button
+        android:id="@+id/gumbFam"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="#393e46"
+        android:shadowColor="#222831"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:stateListAnimator="@null"
+        android:text="FAMILY MEMBERS"
+        android:textColor="#00adb5"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/textFM0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="TATA"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/gumbFM0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/textFM0"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/textFM0"
+                    android:background="#222831"
+                    android:onClick="onClickFM0"
+                    android:paddingTop="18dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+
+                    android:shadowRadius="3"
+
+                    android:stateListAnimator="@null"
+                    android:text="zero"
+                    android:textColor="#222831"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textFM1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textFM0"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="MAMA"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/gumbFM1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/textFM1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/textFM1"
+                    android:background="#222831"
+                    android:onClick="onClickFM1"
+                    android:paddingTop="18dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+
+                    android:shadowRadius="3"
+
+                    android:stateListAnimator="@null"
+                    android:text="one"
+                    android:textColor="#222831"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textFM2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textFM1"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="BRAT"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/gumbFM2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/textFM2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/textFM2"
+                    android:background="#222831"
+                    android:onClick="onClickFM2"
+                    android:paddingTop="18dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+
+                    android:shadowRadius="3"
+
+                    android:stateListAnimator="@null"
+                    android:text="two"
+                    android:textColor="#222831"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textFM3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textFM2"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="SESTRA"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/gumbFM3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/textFM3"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/textFM3"
+                    android:background="#222831"
+                    android:onClick="onClickFM3"
+                    android:paddingTop="18dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+
+                    android:shadowRadius="3"
+
+                    android:stateListAnimator="@null"
+                    android:text="three"
+                    android:textColor="#222831"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textFM4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textFM3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="BAKA"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/gumbFM4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/textFM4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/textFM4"
+                    android:background="#222831"
+                    android:onClick="onClickFM4"
+                    android:paddingTop="18dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+
+                    android:shadowRadius="3"
+
+                    android:stateListAnimator="@null"
+                    android:text="four"
+                    android:textColor="#222831"
+                    android:textSize="35dp" />
+
+
+                <TextView
+                    android:id="@+id/textFM5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textFM4"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+                    android:shadowRadius="3"
+                    android:text="DJED"
+                    android:textColor="#00adb5"
+                    android:textFontWeight="bold"
+
+                    android:textSize="40dp" />
+
+                <Button
+                    android:id="@+id/gumbFM5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/textFM5"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/textFM5"
+                    android:background="#222831"
+                    android:onClick="onClickFM5"
+                    android:paddingTop="18dp"
+                    android:shadowColor="#222831"
+                    android:shadowDx="6"
+                    android:shadowDy="6"
+
+                    android:shadowRadius="3"
+
+                    android:stateListAnimator="@null"
+                    android:text="five"
+                    android:textColor="#222831"
+                    android:textSize="35dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
 
 </LinearLayout>

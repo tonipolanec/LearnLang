@@ -1,3 +1,91 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">LearnLang</string>
+
+
+    <string-array name="languageTo">
+        <item>Slovenski</item>
+        <item>Engleski</item>
+    </string-array>
+
+
+
+    <string-array name="eng_numbers">
+        <item>ZERO</item>
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+        <item>SIX</item>
+        <item>SEVEN</item>
+        <item>EIGHT</item>
+        <item>NINE</item>
+        <item>TEN</item>
+    </string-array>
+
+    <string-array name="slo_numbers">
+        <item>NIČ</item>
+        <item>ENA</item>
+        <item>DVE</item>
+        <item>TRI</item>
+        <item>ŠTIRI</item>
+        <item>PET</item>
+        <item>ŠEST</item>
+        <item>SEDAM</item>
+        <item>OSEM</item>
+        <item>DEVET</item>
+        <item>DESET</item>
+    </string-array>
+
+
+    <string-array name="eng_members">
+        <item>DAD</item>
+        <item>MOM</item>
+        <item>BROTHER</item>
+        <item>SISTER</item>
+        <item>GRANDMA</item>
+        <item>GRANDPA</item>
+    </string-array>
+
+    <string-array name="slo_members">
+        <item>OČE</item>
+        <item>MAMA</item>
+        <item>BRAT</item>
+        <item>SESTRA</item>
+        <item>BABICA</item>
+        <item>DEDEK</item>
+    </string-array>
+
+
+    <string-array name="eng_colors">
+        <item>RED</item>
+        <item>ORANGE</item>
+        <item>YELLOW</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>PURPLE</item>
+        <item>BROWN</item>
+        <item>PINK</item>
+        <item>BLACK</item>
+        <item>WHITE</item>
+    </string-array>
+
+
+    <string-array name="slo_colors">
+        <item>RDEČA</item>
+        <item>ORANŽNA</item>
+        <item>RUMENA</item>
+        <item>ZELENA</item>
+        <item>MODRA</item>
+        <item>VIJOLIČNA</item>
+        <item>RJAVA</item>
+        <item>ROZA</item>
+        <item>ČRNA</item>
+        <item>BELA</item>
+    </string-array>
+
+
+
+
+
 </resources>
