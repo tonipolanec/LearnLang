@@ -18,6 +18,9 @@ public class ActivityColors extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_activity_colors);
 
+        Button gumbCol = (Button) findViewById(R.id.gumbCol);
+        gumbCol.setShadowLayer(12,8,7, Color.parseColor("#222831"));
+
         Button b0 = (Button) findViewById(R.id.gumbC0);
         Button b1 = (Button) findViewById(R.id.gumbC1);
         Button b2 = (Button) findViewById(R.id.gumbC2);

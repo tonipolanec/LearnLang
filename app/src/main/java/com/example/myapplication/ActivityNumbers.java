@@ -17,6 +17,9 @@ public class ActivityNumbers extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_activity_numbers);
 
+        Button gumbFam = (Button) findViewById(R.id.gumbNum);
+        gumbFam.setShadowLayer(12,8,7, Color.parseColor("#222831"));
+
         Button b0 = (Button) findViewById(R.id.gumbN0);
         Button b1 = (Button) findViewById(R.id.gumbN1);
         Button b2 = (Button) findViewById(R.id.gumbN2);

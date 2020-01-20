@@ -3,8 +3,8 @@
 
 
     <string-array name="languageTo">
-        <item>Slovenski</item>
-        <item>Engleski</item>
+        <item>slovenian language</item>
+        <item>english language</item>
     </string-array>
 
 

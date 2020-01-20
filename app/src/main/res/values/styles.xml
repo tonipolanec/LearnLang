@@ -7,4 +7,11 @@
         <item name="colorAccent">#00adb5</item>
     </style>
 
+    <style name="spinnerItemStyle">
+
+    </style>
+    <style name="spinnerDropDownItemStyle">
+
+    </style>
+
 </resources>

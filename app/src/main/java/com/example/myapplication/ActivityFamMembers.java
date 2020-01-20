@@ -16,6 +16,9 @@ public class ActivityFamMembers extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_activity_fam_members);
 
+        Button gumbFam = (Button) findViewById(R.id.gumbFam);
+        gumbFam.setShadowLayer(12,8,7, Color.parseColor("#222831"));
+
         Button b0 = (Button) findViewById(R.id.gumbFM0);
         Button b1 = (Button) findViewById(R.id.gumbFM1);
         Button b2 = (Button) findViewById(R.id.gumbFM2);

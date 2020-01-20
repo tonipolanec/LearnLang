@@ -12,16 +12,13 @@
 
 
     <Button
-        android:id="@+id/gumbFam"
+        android:id="@+id/gumbCol"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="20dp"
         android:background="#393e46"
-        android:shadowColor="#222831"
-        android:shadowDx="6"
-        android:shadowDy="6"
         android:stateListAnimator="@null"
         android:text="COLORS"
         android:textColor="#00adb5"

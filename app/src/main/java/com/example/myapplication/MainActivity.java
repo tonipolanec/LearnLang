@@ -23,20 +23,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         gumbMain.setShadowLayer(12,8,7, Color.parseColor("#222831"));
 
 
-
         Spinner spinLangFrom = (Spinner) findViewById(R.id.spinner1);
-
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.languageTo, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.array.languageTo, R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item);
         spinLangFrom.setAdapter(adapter);
-
-
-       /*ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.languageTo, R.layout.custom_spinner);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinLangFrom.setAdapter(adapter);
-        */
 
         spinLangFrom.setOnItemSelectedListener(this);
     }

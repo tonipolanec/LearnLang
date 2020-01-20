@@ -27,9 +27,6 @@
         android:layout_gravity="center"
         android:background="#393e46"
         android:onClick="onClickMain"
-        android:shadowColor="#222831"
-        android:shadowDx="6"
-        android:shadowDy="6"
         android:stateListAnimator="@null"
         android:text="PRESS \n TO START \n LEARNING"
         android:textColor="#00adb5"
@@ -47,8 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-
-            android:text="Learn"
+            android:shadowRadius="5"
+            android:shadowColor="#222831"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:text="Learn: "
             android:textColor="#00adb5"
             android:textSize="24sp" />
 
@@ -56,12 +56,10 @@
             android:id="@+id/spinner1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="8dp"
-            android:layout_marginLeft="2dp"
             android:spinnerMode="dropdown"
             android:background="#393e46"
-
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
             />
 
 
